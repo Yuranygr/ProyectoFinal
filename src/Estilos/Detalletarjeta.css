@@ -1,0 +1,26 @@
+.contenedordetalle {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 30px;
+    background-color: black;
+    padding: 50px;
+    border-radius: 15px;
+}
+.contenedorimagen {
+    width: 350px;
+}
+.img {
+    min-width: 250px;
+    width: 100%;
+    border-radius: 15px;
+}
+.contenedortitulo{
+    padding: 50px;
+}
+.cargando{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;    
+}

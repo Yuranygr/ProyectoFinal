@@ -1,6 +1,13 @@
 .contenedor {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
-    gap: 5px;
+    gap: 1px;
     flex: 1;
+    margin: 50px;
+    border-radius: 10px;
+}
+.cargando {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
